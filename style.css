@@ -1,0 +1,135 @@
+body {
+  font-family: 'Poppins';
+}
+
+
+
+/* Show dropdown on hover */
+@media (min-width: 992px) { /* large screens and up */
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+.orsngrf{
+  color:orangered;
+}
+
+.navbar{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-brand img{
+  width:100%;
+}
+
+.nav-item{
+  margin:0 2rem;
+}
+
+.dropdown-menu{
+ border: none;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-nav a{
+color:black;
+font-weight: 600;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: orangered;
+  font-weight: bold;
+}
+
+.nav-item a:hover{
+  color:orangered;
+}
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 98%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  background-color: orangered;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.mess p{
+  margin: 0px;
+  font-size:14px;
+  color:black;
+}
+
+.mess .fa-solid {
+color:orangered;
+}
+
+.abtsus{
+  font-weight:bold;
+}
+
+.readbtn{
+  background-color: orangered;
+  color:white;
+}
+
+.readbtn:hover{
+  background-color: rgb(209, 61, 8);
+  color:white;
+}
+
+.viewbtn{
+  background-color: rgb(209, 61, 8);
+  color:white;
+}
+
+.viewbtn:hover{
+  background-color: orangered;
+  color:white;
+}
+
+.contbg{
+  background-color: rgba(245, 77, 16, 0.074);
+}
+
+.cardbg{
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-bottom: 5px solid white;
+}
+
+.cardbg:hover{
+  transform: scaleX(1);
+  border-bottom: 5px solid red;
+  transition: .3s ease-in-out;
+  transform-origin: bottom left;
+}
+.cardbg h5{
+  font-weight: bold;
+}
+
+
+.cardbg img:hover{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}

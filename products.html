@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+      <div class="container">
+       <div class="col-6 col-md-3">
+        <a class="navbar-brand" href="#">
+          <img src="images/loho.png" alt="">
+        </a>
+    
+       </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item hover-underline-animation left">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+    
+            <li class="nav-item dropdown hover-underline-animation left">
+              <a class="nav-link dropdown-toggle" onclick="goToPage('services.html')" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Forklift Rental Services</a></li>
+                <li><a class="dropdown-item" href="#">Forklift Reparing</a></li>
+                <li><a class="dropdown-item" href="#">Forklift Maintanence</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item hover-underline-animation left">
+              <a class="nav-link active" href="products.html">Products</a>
+            </li>
+    
+            <li class="nav-item hover-underline-animation left">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="mess mx-2">
+            <p><i class="fa-solid fa-envelope"></i> - forkliftcare@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> - 9900223311</p>
+          </div>
+        </div>
+      
+      </div>
+    </nav>
+  
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
